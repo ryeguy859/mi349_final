@@ -183,16 +183,11 @@ P{
 }
 
 #sub{
-  position: relative;
-  left: 20px;
-  top: -170px;
+
   padding-left: 150px;
   padding-right: 150px;
   font-size: 150%;
 }
 
 #newsletter{
-  position: relative;
-  left: 10px;
-  top: -150px;
 }
