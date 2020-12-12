@@ -14,9 +14,9 @@ html{
     padding-right: 50px;
     margin-left: 200px;
     margin-right: 200px;
-    background-image: linear-gradient(180deg, white,rgb(53, 156, 53));
+    background-image: linear-gradient(180deg, white,rgb(53, 156, 53), white);
     border: 10px solid;
-    border-image: linear-gradient(to top, white, rgb(53, 156, 53));
+    border-image: linear-gradient(to top, rgb(53, 156, 53), white, rgb(53, 156, 53));
     border-image-slice: 1;
 }
 
@@ -161,21 +161,38 @@ textarea {
 
 #this-week{
     border: 2px solid black;
-    margin-left: 60px;
-}
-
-table, th, td {
-    border: 1px solid black;
+    margin-left: 140px;
 }
 
 table {
     border-spacing: 5px;
+    margin-left: 100px;
   }
 
 th{
     background-color:white;
+    border: 1px solid black;
 }
 
 P{
     font-size: 120%;
+}
+
+#weekly-csa{
+  margin-left: 150px;
+}
+
+#sub{
+  position: relative;
+  left: 20px;
+  top: -170px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 150%;
+}
+
+#newsletter{
+  position: relative;
+  left: 10px;
+  top: -150px;
 }
